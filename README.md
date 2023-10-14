@@ -24,7 +24,8 @@ This concept can also be extended to various aspects of guided tours in venues s
 * Audio guides uploading for tourist guides
 * Audio guides listening for tourists
 * Rate audio guides
-* Add tourist sites to Favorite
+* Add tourist sites to Favorite <br>
+<img width="200" alt="login" src="https://github.com/pakapoo/HearThereAudioPlatform/blob/f7a22e0a6bef8472185f4c9162b79874173af8e0/PresentationReports/login.png"><img width="200" alt="login" src="https://github.com/pakapoo/HearThereAudioPlatform/blob/f7a22e0a6bef8472185f4c9162b79874173af8e0/PresentationReports/list_attraction.png"><img width="200" alt="login" src="https://github.com/pakapoo/HearThereAudioPlatform/blob/f7a22e0a6bef8472185f4c9162b79874173af8e0/PresentationReports/site.png">
 
 ### Tech Stack
 * App: Android Studio (Java, XML, Google Map API, Facebook API), SQLite
