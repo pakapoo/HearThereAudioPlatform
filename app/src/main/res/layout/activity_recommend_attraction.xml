@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.logintest.RecommendAttractionActivity">
+
+    <Button
+        android:id="@+id/btn_RecomtoAudio"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton3"
+        android:text="探索音檔"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_attr_recom"
+        android:layout_width="fill_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+
+    <TextView
+        android:id="@+id/blackblock2_recom"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/iv_attr_recom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#80000000" />
+
+
+    <TextView
+        android:id="@+id/tv_attrName_recom"
+        android:layout_width="350dp"
+        android:layout_height="29dp"
+        android:layout_alignLeft="@+id/textView3_recom"
+        android:layout_alignStart="@+id/textView3_recom"
+        android:layout_alignTop="@+id/blackblock2_recom"
+        android:layout_marginTop="11dp"
+        android:text="Chinese name"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_attrNameEn_recom"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:text="English name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_attrName_recom"
+        android:layout_alignLeft="@+id/tv_attrName_recom"
+        android:layout_alignStart="@+id/tv_attrName_recom" />
+
+    <Button
+        android:id="@+id/imageView3_recom"
+        android:text=""
+        tools:ignore="MissingConstraints,RelativeOverlap"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/heart1"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:id="@+id/tv_attrtype_recom"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/iv_attr_recom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/textView3_recom"
+        android:layout_toRightOf="@+id/textView3_recom"
+        android:gravity="center_vertical"
+        android:text="景點類別"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_attrIntro_recom"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView2_recom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="17sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView2_recom"
+        android:layout_width="120dp"
+        android:layout_height="28dp"
+        android:text=" 景點簡介   "
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#9ACFD7"
+
+        android:layout_below="@+id/iv_attr_recom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:id="@+id/textView3_recom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/attr_address_recom"
+        android:layout_alignBottom="@+id/attr_address_recom"
+        android:layout_alignLeft="@+id/tv_attrIntro_recom"
+        android:layout_alignStart="@+id/tv_attrIntro_recom"
+        android:text="地址 "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/attr_address_recom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_RecomtoAudio"
+        android:layout_marginBottom="9dp"
+        android:layout_toEndOf="@+id/textView3_recom"
+        android:layout_toRightOf="@+id/textView3_recom"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_type_recom"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/tv_attrNameEn_recom"
+        android:layout_alignStart="@+id/tv_attrNameEn_recom"
+        android:layout_alignTop="@+id/tv_attrtype_recom"
+        app:srcCompat="@drawable/com_facebook_button_send_background" />
+
+
+</RelativeLayout>

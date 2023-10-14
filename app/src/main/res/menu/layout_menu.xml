@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/我的最愛"
+        android:enabled="true"
+        android:title="@string/我的最愛"
+        android:visible="true" />
+    <item
+        android:id="@+id/我上傳的音檔"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="我上傳的音檔"
+        android:visible="false" />
+    <item
+        android:id="@+id/我的帳戶"
+        android:enabled="true"
+        android:title="@string/我的帳戶"
+        android:visible="true"/>
+    <item
+        android:id="@+id/條列式瀏覽"
+        android:enabled="true"
+        android:title="@string/條列式瀏覽" />
+</menu>
